@@ -64,7 +64,7 @@ The [design journey](docs/DESIGN-JOURNEY.md) shows how early persona work, wiref
 
 The Android client uses a layered Compose architecture. Screens observe ViewModel state; repositories isolate UI code from network and local-storage details; Retrofit, Room, Mapbox, OpenWeather, and the project backend provide the underlying capabilities.
 
-![ShadeMates Android architecture](assets/diagrams/android-architecture.svg)
+![ShadeMates Android architecture](assets/diagrams/android-architecture-v2.svg)
 
 See [Architecture](docs/ARCHITECTURE.md) for component boundaries, data flows, graceful-degradation behaviour, and the public-release configuration model.
 
