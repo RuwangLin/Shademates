@@ -19,7 +19,7 @@
   </defs>
   <rect width="1200" height="700" rx="26" fill="url(#bg)"/>
   <text x="60" y="58" fill="#244536" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Android client</text>
-  <text x="804" y="58" fill="#244536" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">External services</text>
+  <text x="900" y="58" fill="#244536" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">External services</text>
 
   <g fill="none" stroke="#829a8b" stroke-width="4" marker-end="url(#arrow)">
     <path d="M357 151 L357 194"/>
@@ -27,9 +27,9 @@
     <path d="M357 413 C357 465 188 455 188 504"/>
     <path d="M357 413 L357 504"/>
     <path d="M357 413 C357 465 526 455 526 504"/>
-    <path d="M657 548 C724 548 713 191 790 191"/>
-    <path d="M657 548 C724 548 713 507 790 507"/>
-    <path d="M980 233 L980 278"/>
+    <path d="M463 504 C463 455 820 455 820 191 C820 191 850 191 900 191"/>
+    <path d="M463 592 C463 630 1035 630 1035 550"/>
+    <path d="M1035 233 L1035 278"/>
   </g>
 
   <g filter="url(#shadow)" font-family="Inter, Segoe UI, Arial, sans-serif">
@@ -58,15 +58,15 @@
     </g>
 
     <g fill="#fffaf0" stroke="#e3c771" stroke-width="2">
-      <rect x="790" y="136" width="380" height="98" rx="20"/>
-      <rect x="790" y="294" width="380" height="98" rx="20"/>
-      <rect x="790" y="452" width="380" height="98" rx="20"/>
+      <rect x="900" y="136" width="270" height="98" rx="20"/>
+      <rect x="900" y="294" width="270" height="98" rx="20"/>
+      <rect x="900" y="452" width="270" height="98" rx="20"/>
     </g>
     <g fill="#554619" text-anchor="middle" font-weight="700">
-      <text x="980" y="177" font-size="22">AWS API Gateway + Lambda</text>
-      <text x="980" y="207" font-size="19" font-weight="500">project backend</text>
-      <text x="980" y="352" font-size="22">RDS + project datasets</text>
-      <text x="980" y="510" font-size="22">OpenWeather</text>
+      <text x="1035" y="177" font-size="19">AWS API Gateway + Lambda</text>
+      <text x="1035" y="207" font-size="17" font-weight="500">project backend</text>
+      <text x="1035" y="352" font-size="20">RDS + project datasets</text>
+      <text x="1035" y="510" font-size="22">OpenWeather</text>
     </g>
   </g>
 
