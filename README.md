@@ -56,16 +56,7 @@ Extreme heat is a serious public-health and liveability challenge. Standard mapp
 
 The product concept was shaped around commuters and other heat-vulnerable residents who need practical choices rather than another dashboard. The final flow turns several inputs into a small set of actions:
 
-```mermaid
-flowchart LR
-    A["Location and destination"] --> E["Heat-aware decision support"]
-    B["Temperature and UV"] --> E
-    C["Shade and route context"] --> E
-    D["Age group and heat sensitivity"] --> E
-    E --> F["Compare routes"]
-    E --> G["Find a cool place"]
-    E --> H["Read a safety tip"]
-```
+![ShadeMates decision-support flow](assets/diagrams/decision-support.svg)
 
 The [design journey](docs/DESIGN-JOURNEY.md) shows how early persona work, wireframes, iteration feedback, and scope decisions evolved into the final Android experience.
 
@@ -73,17 +64,7 @@ The [design journey](docs/DESIGN-JOURNEY.md) shows how early persona work, wiref
 
 The Android client uses a layered Compose architecture. Screens observe ViewModel state; repositories isolate UI code from network and local-storage details; Retrofit, Room, Mapbox, OpenWeather, and the project backend provide the underlying capabilities.
 
-```mermaid
-flowchart TB
-    UI["Jetpack Compose screens"] --> VM["ViewModels + StateFlow"]
-    VM --> REPO["Repository layer"]
-    REPO --> ROOM["Room / SharedPreferences"]
-    REPO --> RETROFIT["Retrofit services"]
-    REPO --> MAPBOX["Mapbox Maps, Search & Directions"]
-    RETROFIT --> API["AWS API Gateway / Lambda backend"]
-    RETROFIT --> WEATHER["OpenWeather"]
-    API --> DATA["RDS / project datasets"]
-```
+![ShadeMates Android architecture](assets/diagrams/android-architecture.svg)
 
 See [Architecture](docs/ARCHITECTURE.md) for component boundaries, data flows, graceful-degradation behaviour, and the public-release configuration model.
 
