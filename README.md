@@ -15,7 +15,7 @@
   <a href="docs/ARCHITECTURE.md">Architecture</a>
 </p>
 
-> **Public showcase edition.** This repository is a curated, security-sanitised snapshot of a collaborative Monash University FIT5120 capstone project. It preserves the original Android implementation while adding the product story, final screenshots, design rationale, architecture, testing notes, and attribution needed for portfolio review. The team's original private repository remains unchanged.
+> **Public showcase edition.** This repository is a curated, security-sanitised snapshot of a collaborative Monash University FIT5120 capstone project. It preserves the original Android implementation while adding the product story, final screenshots, design rationale, architecture, testing notes, and attribution needed for portfolio review. 
 
 ## The product
 
