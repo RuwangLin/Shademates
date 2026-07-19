@@ -1,0 +1,35 @@
+# Android Studio / IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Gradle and build output
+.gradle/
+.gradle-user-home/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+output-metadata.json
+*.apk
+*.aab
+
+# Local and secret configuration
+local.properties
+*.jks
+*.keystore
+google-services.json
+.env
+.env.*
+
+# Profiling, logs, and temporary analysis files
+*.hprof
+*.log
+.tmp_*.jar
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
