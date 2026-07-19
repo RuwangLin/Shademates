@@ -28,7 +28,7 @@
     <path d="M357 413 L357 504"/>
     <path d="M357 413 C357 465 526 455 526 504"/>
     <path d="M657 548 C724 548 713 191 790 191"/>
-    <path d="M657 548 C724 548 713 349 790 349"/>
+    <path d="M657 548 C724 548 713 507 790 507"/>
     <path d="M980 233 L980 278"/>
   </g>
 
@@ -65,8 +65,8 @@
     <g fill="#554619" text-anchor="middle" font-weight="700">
       <text x="980" y="177" font-size="22">AWS API Gateway + Lambda</text>
       <text x="980" y="207" font-size="19" font-weight="500">project backend</text>
-      <text x="980" y="352" font-size="22">OpenWeather</text>
-      <text x="980" y="510" font-size="22">RDS + project datasets</text>
+      <text x="980" y="352" font-size="22">RDS + project datasets</text>
+      <text x="980" y="510" font-size="22">OpenWeather</text>
     </g>
   </g>
 
